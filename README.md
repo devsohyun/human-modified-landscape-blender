@@ -9,6 +9,13 @@ Communication between Unity and TouchDesigner
 ### TouchDesigner Version
 2022.28040
 
+## Installation
+Install unity package from [Mapbox](https://www.mapbox.com/install/unity/) and import only 
+* Mapbox
+* Resources
+* ThirdPartyAssets
+* UnityARKitPlugin
+
 
 
 
