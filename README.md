@@ -12,7 +12,6 @@ Communication between Unity and TouchDesigner
 ## Installation
 Install unity package from [Mapbox](https://www.mapbox.com/install/unity/) and import only 
 * Mapbox
-* Resources
 * ThirdPartyAssets
 * UnityARKitPlugin
 

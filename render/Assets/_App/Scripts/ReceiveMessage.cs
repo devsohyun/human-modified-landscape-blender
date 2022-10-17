@@ -9,7 +9,7 @@ public class ReceiveMessage : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        osc.SetAddressHandler("/Test", OnReceiveMsg);
+        osc.SetAddressHandler("/coordinates", OnReceiveCoordinate);
     }
 
     // Update is called once per frame
@@ -18,8 +18,14 @@ public class ReceiveMessage : MonoBehaviour
         
     }
 
-    void OnReceiveMsg(OscMessage message)
+    void OnReceiveCoordinate(OscMessage message)
     {
-        
+        if (message.values[0].ToString() == "") return;
+
+        // float latitude = message.GetFloat(0);
+        // float longitude = message.GetFloat(1);
+
+        // Debug.Log("latitude: " + latitude + ", longitude: " + longitude);
+        Debug.Log(message);
     }
 }
