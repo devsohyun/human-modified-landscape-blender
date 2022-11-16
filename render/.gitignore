@@ -36,5 +36,5 @@ sysinfo.txt
 # Assets
 Assets/*
 !Assets/_App
-!Assets/KlakNDI
-!Assets/OSC
+!Assets/Resources
+!Assets/ThirdPartyAssets
