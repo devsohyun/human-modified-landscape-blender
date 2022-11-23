@@ -14,6 +14,8 @@ namespace Mapbox.Unity.Map
 
     public class AppManager : MonoBehaviour
     {
+        #region Variables
+        
         [Header("Map")]
         [SerializeField] GameObject map;
         AbstractMap abstractMap;
@@ -24,6 +26,8 @@ namespace Mapbox.Unity.Map
 
         [Header("Dependencies")]
         public NdiManager ndiManager;
+
+        #endregion
         
         void Awake()
         {
@@ -43,8 +47,8 @@ namespace Mapbox.Unity.Map
         public void Update()
         {
             // shortcut keyboard
-            if (Input.GetKeyDown(KeyCode.R)) StartCoroutine(ReloadScene());
-            if (Input.GetKeyDown(KeyCode.Q)) StartCoroutine(QuitScene());
+            // if (Input.GetKeyDown(KeyCode.R)) StartCoroutine(ReloadScene());
+            // if (Input.GetKeyDown(KeyCode.Q)) StartCoroutine(QuitScene());
         }
 
         public IEnumerator ReloadScene()

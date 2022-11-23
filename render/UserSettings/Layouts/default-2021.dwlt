@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2545.3335
     height: 1342.6667
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 10}
   m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 176
+  controlID: 158
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -151,7 +151,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 300}
   m_MaxSize: {x: 8096, y: 24288}
   vertical: 1
-  controlID: 175
+  controlID: 157
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -204,7 +204,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 300}
   m_MaxSize: {x: 32384, y: 24288}
   vertical: 0
-  controlID: 174
+  controlID: 129
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -369,22 +369,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/_App/Textures
+    - Assets/Mapbox/Examples/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/_App/Textures
+  - Assets/Mapbox/Examples/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Sohyun\Git\human-modified-landscape-blender\render
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: cc660000
-    m_LastClickedID: 26316
-    m_ExpandedIDs: 000000004e6100005061000054610000566100006065000000ca9a3bffffff7f
+    m_SelectedIDs: 666e0000
+    m_LastClickedID: 28262
+    m_ExpandedIDs: 00000000da610000dc610000de610000e0610000e0650000e265000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -412,7 +412,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000004e61000050610000526100005461000056610000
+    m_ExpandedIDs: 00000000da610000dc610000de610000e0610000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -439,7 +439,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -456,7 +456,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 7}
+      m_ClientGUIView: {fileID: 13}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -540,9 +540,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: c05e0000
-      m_LastClickedID: 24256
-      m_ExpandedIDs: 30b7ffff72bbffff96bbffff4cbeffff98f0ffff70f3ffff38fbffff
+      m_SelectedIDs: 26fbffff
+      m_LastClickedID: -1242
+      m_ExpandedIDs: 48f9ffff4ef9ffff80f9ffff9cf9ffffa8f9ffffb2f9ffffbcf9ffffdafaffff12fbffff1cfbffff26fbffff2efbffff36fbffff38fbffff0a5f0000265f00003e5f00004e5f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -791,9 +791,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 543.17914, y: 236.79164, z: 1075.6091}
+    m_Target: {x: 1592.2277, y: 932.66547, z: 715.30005}
     speed: 2
-    m_Value: {x: 543.17914, y: 236.79164, z: 1075.6091}
+    m_Value: {x: 1592.2277, y: 932.66547, z: 715.30005}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -840,13 +840,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.14808705, y: 0.0480418, z: -0.007202293, w: -0.9877833}
+    m_Target: {x: -0.12512755, y: 0.11491539, z: -0.014593578, w: -0.985365}
     speed: 2
-    m_Value: {x: -0.14808665, y: 0.048041668, z: -0.0072022732, w: -0.98778063}
+    m_Value: {x: -0.12512633, y: 0.11491427, z: -0.014593435, w: -0.9853553}
   m_Size:
-    m_Target: 84.32381
+    m_Target: 450.92813
     speed: 2
-    m_Value: 84.32381
+    m_Value: 450.92813
   m_Ortho:
     m_Target: 0
     speed: 2
