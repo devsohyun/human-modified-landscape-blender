@@ -9,9 +9,10 @@ namespace Mapbox.Examples
 
     public class MapManager : MonoBehaviour
     {
-        public float latitude;
-        public float longitude;
-        public float zoom;
+        public float currentLatitude;
+        public float currentLongitude;
+        public float currentZoom;
+        public float zoomMax;
         Camera _camera;
 		Vector3 _cameraStartPos;
 		AbstractMap _map;
@@ -28,14 +29,14 @@ namespace Mapbox.Examples
 
         #region Map Setting
         
-        public void NextMap(float _zoom)
-        {
-            // set zoom
-            if (_zoom != 0)
-                {
-                    _map.OnUpdated += () => { _zoom = _map.Zoom; };
-                }
-        }
+        // IEnumerator NextMap()
+        // {
+        //     // set zoom
+        //     if (_zoom != 0)
+        //         {
+        //             _map.OnUpdated += () => { _zoom = _map.Zoom; };
+        //         }
+        // }
 
         #endregion
     }
